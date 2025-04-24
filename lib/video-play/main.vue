@@ -611,7 +611,7 @@ watch(
 );
 onMounted(() => {
   state.dVideo = refdVideo;
-  inputFocusHandle();
+  //inputFocusHandle();
 });
 defineExpose({
   play: playHandle, //播放
